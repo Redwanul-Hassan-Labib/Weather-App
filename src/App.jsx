@@ -1,9 +1,10 @@
 import React from "react";
+import WeatherApp from "./component/WeatherApp";
 
 const App = () => {
   return (
     <div>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+      <WeatherApp/>
     </div>
   );
 };
